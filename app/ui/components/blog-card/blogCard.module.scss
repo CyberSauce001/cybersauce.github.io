@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
+
+.link {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 400px;
+  max-height: 420px;
+  padding-bottom: 40px;
+  background-color: var(--bg-dimm);
+  transition: all 0.2s linear;
+
+  .image {
+    position: relative;
+    height: 225px;
+    overflow: hidden;
+    transition: all 0.2s linear;
+
+    img {
+      object-fit: cover;
+      transition: all 0.2s linear;
+    }
+
+    .tag {
+      font-family: 'pontano sans', Helvetica, Arial, sans-serif;
+      font-size: 0.75rem;
+      line-height: 100%;
+      color: var(--font-dark);
+      border-radius: 20px;
+      background-color: var(--bg-highlight);
+      position: absolute;
+      top: 0.5rem;
+      right: 1rem;
+      z-index: 1;
+      padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+      font-weight: 500;
+      box-shadow: 0px 4px 4px 0px rgba(0, 3, 5, 0.25);
+      transition: all 0.2s linear;
+    }
+  }
+
+  .cont {
+    padding: 0 1rem 0 1rem;
+    
+    h2 {
+      font-size: 1.25rem;
+      line-height: 120%;
+      margin-top: 1rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    span {
+      font-family: 'pontano sans', Helvetica, Arial, sans-serif;
+      font-size: 0.75rem;
+      line-height: 124%;
+      letter-spacing: 1px;
+      margin-top: 0.688rem;
+      color: var(--font-dimm-mask);
+    }
+
+    p {
+      font-family: 'pontano sans', Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 124%;
+      letter-spacing: 1px;
+      margin-top: 0.813rem;
+      color: var(--font-p);
+      max-height: 3.9rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}
+
+.wrapper:hover {
+  border-radius: 0.75rem !important;
+  background-color: var(--bg-dimm-hidden);
+
+  .image {
+    border-top-right-radius: 0.75rem !important;
+    border-top-left-radius: 0.75rem !important;
+
+    img {  
+      scale: 1.1;
+    }
+  
+    .tag {
+      background: var(--grad);
+      color: var(--font);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 280px;
+    .image {
+      height: 157px;
+      width: 280px;
+    }
+  }
+}

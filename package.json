@@ -1,0 +1,34 @@
+{
+  "name": "cybersauce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.30",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.11",
+    "next": "14.2.6",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.77.8",
+    "sugar-high": "^0.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
