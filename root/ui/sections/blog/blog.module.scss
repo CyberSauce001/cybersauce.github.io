@@ -1,0 +1,16 @@
+.root {
+  width: 100%;
+
+  .blogs {
+    position: relative;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem auto 0 auto;
+    
+    .slides {
+      width: 80%;
+    }
+  }
+}

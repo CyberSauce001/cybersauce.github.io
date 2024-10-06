@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #000305;
+  --bg-light: #C2C4C7;
+  --bg-highlight: #FDFFFF;
+  --bg-dimm: #191C1E;
+  --bg-dimm-hidden: #333537;
+
+  --font: #FDFFFF;
+  --font-p: #F9FAFF;
+  --font-dimm: #C2C4C7;
+  --font-dark: #000305;
+  --font-dimm-dark: #43474A;
+  --font-dimm-hidden: #323A3F;
+  --font-dimm-mask: #96969E;
+  --font-sub: #727279;
+  --font-add: #DCDEDF;
+  --font-link: #488EEA;
+  --font-link-higlight: #5496ec;
+
+  --grad: linear-gradient(45deg, #60F6ED, #D701FF);
+
+  /* sugar-high (code syntax higlighting) styles */
+  /* --sh-identifier: #354150;
+  --sh-keyword: #f47067;
+  --sh-string: #00a99a;
+  --sh-class: #8d85ff;
+  --sh-property: #4e8fdf;
+  --sh-entity: #6eafad;
+  --sh-jsxliterals: #bf7db6;
+  --sh-sign: #8996a3;
+  --sh-comment: #a19595; */
+
+  --sh-identifier: #a3aebb;
+  --sh-keyword: #ff5e50;
+  --sh-string: #33d0c7;
+  --sh-class: #b3adff;
+  --sh-property: #73aef2;
+  --sh-entity: #91d3d0;
+  --sh-jsxliterals: #d88cc8;
+  --sh-sign: #9da9b6;
+  --sh-comment: #7c6f6f;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--font);
+}
